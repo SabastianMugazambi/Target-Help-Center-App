@@ -1,0 +1,9 @@
+Required Software for this application: 
+
+-sqlite-shell-osx-3080600.zip for Mac
+-sqlite-shell-windows-3080600 for Windows (if using windows)
+-Flask 0.10.x
+-twilio support from https://github.com/twilio/twilio-python
+
+
+ 

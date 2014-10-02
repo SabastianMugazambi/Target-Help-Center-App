@@ -1,0 +1,90 @@
+html, body {
+	margin:0;
+	height:100%;
+}
+
+#page {
+	color: blue;
+	background-image: url("background.png");
+	height: 100%;
+}
+
+#logo1 {
+	height: 30px;
+	position:relative;
+	float: left;
+	z-index: 3;
+}
+
+#logo_section {
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+
+#tdm {
+	color:maroon;
+	font-size: 14px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#tdm sub {
+	font-size:20px;
+	margin-top: -10px;
+}
+
+#table_section {
+	width:80%;
+	background-color: white;
+	margin-right:auto;
+	margin-left: auto;
+
+}
+
+
+#master {
+	color:black;
+	border-collapse: collapse;
+
+}
+
+td {
+	border: 1px solid #D4D4D4;
+
+}
+
+tr{
+	height:24px;
+	font-family: verdana,helvetica,arial,sans-serif;
+}
+
+#master {
+	width:100%;
+	text-align: center;
+}
+
+#row1 {
+	text-align: center;
+	font-family: verdana,helvetica,arial,sans-serif;
+	font-weight: bold;
+	color:black;
+}
+
+table tr:first-child {
+	border-radius: 5px
+}
+
+table tr:nth-child(2n) {
+	background-color: #FFF;
+}
+
+table tr:nth-child(2n+1) {
+	background-color: #F1F1F1;
+}
+
+table td:nth-child(3n){
+	color:maroon;
+}
